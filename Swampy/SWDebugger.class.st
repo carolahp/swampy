@@ -1,3 +1,9 @@
+"
+Example of usage:
+SWDebugger basicNew 	debugSession: (SWDebugSession onContext: (SWBytecodeInterpreterContext on: [ OrderedCollection new ] asContext) );
+	initialize;
+	openWithSpec
+"
 Class {
 	#name : #SWDebugger,
 	#superclass : #ComposablePresenter,
