@@ -55,10 +55,10 @@ SWDebugSession >> stack [
 SWDebugSession >> step: aBlock [
 
 	currentContext := aBlock
-		on: Halt
+		on: Error
 		do: [ :ex |
 			(ex signalerContext copyTo: thisContext home) stack reversed
-				inject: (currentContext mapContext: currentContext vm framePointer)
+				inject: currentContext
 				into: [ :accum :each | 
 					(currentContext newMetaContextOn: each)
 						parent: accum;

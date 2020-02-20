@@ -1,6 +1,6 @@
 Class {
 	#name : #SWASTInterpreterContext,
-	#superclass : #SWInterpreterContext,
+	#superclass : #SWInterpreterPharoContext,
 	#category : #Swampy
 }
 

@@ -55,6 +55,12 @@ SWContext >> icon [
 ]
 
 { #category : #accessing }
+SWContext >> isInterpreterOnReceiver: aReceiver [ 
+	
+	^ false
+]
+
+{ #category : #accessing }
 SWContext >> lookupNativeContext: aNativeContext ifAbsent: aBlock [
 
 	aNativeContext = context
