@@ -44,8 +44,7 @@ SWDebugger >> contextSelected: aContext [
 		text: aContext method sourceCode;
 		behavior: aContext method methodClass;
 		"doItReceiver: aContext home receiver;"
-		doItContext: aContext;
-		highlightNextIntructionInterval: aContext highlightInterval
+		doItContext: aContext
 ]
 
 { #category : #accessing }

@@ -1,6 +1,6 @@
 Class {
 	#name : #SWPharoVMContext,
-	#superclass : #SWPharoContext,
+	#superclass : #SWContext,
 	#instVars : [
 		'vm'
 	],

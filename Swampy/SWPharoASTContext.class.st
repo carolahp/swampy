@@ -1,6 +1,6 @@
 Class {
 	#name : #SWPharoASTContext,
-	#superclass : #SWPharoContext,
+	#superclass : #SWContext,
 	#instVars : [
 		'debugSession'
 	],

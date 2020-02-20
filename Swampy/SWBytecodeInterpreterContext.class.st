@@ -1,6 +1,6 @@
 Class {
 	#name : #SWBytecodeInterpreterContext,
-	#superclass : #SWInterpreterContext,
+	#superclass : #SWInterpreterPharoContext,
 	#category : #Swampy
 }
 
