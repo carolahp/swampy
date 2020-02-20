@@ -6,7 +6,7 @@ TextPresenter >> highlightNextIntructionInterval: anInterval [
 	highlightSegment := RubTextSegmentMorph
 		from: anInterval first
 		to: anInterval last + 1.
-	highlightSegment color: Color red.
+	highlightSegment color: Color blue.
 	self widget
 		ifNotNil: [ :adapter | adapter widget addSegment: highlightSegment ]
 ]
